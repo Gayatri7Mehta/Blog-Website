@@ -3,7 +3,9 @@ const articleRouter = require("./routes/articles")
 const mongoose = require('mongoose')
 const app=express()
 
+
 app.set('view engine','ejs')
+
 app.get('/',(req,res)=>{
     const articles=[{
         title:'Test Article1',
