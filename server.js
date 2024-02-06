@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 const app = express()
 
-mongoose.connect('mongodb://localhost/bharatInternDatabase')
+mongoose.connect('mongodb://localhost/BlogWebsitedb')
 
 app.set('view engine', 'ejs')
 app.use(express.urlencoded({extended: false}))
